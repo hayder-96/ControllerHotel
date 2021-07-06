@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation="vertical"
+    tools:context = ".RegAndLogin.Login"><EditText
+    android:id = "@+id/name_log"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:hint="البريد الالكتروني"
+    android:inputType = "textEmailAddress" /><EditText
+    android:id = "@+id/password_login"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:hint="الرمز السري"
+    android:inputType = "textPassword" />
+  <Button
+    android:id = "@+id/bu"
+    android:layout_width = "match_parent"
+      android:onClick="login"
+    android:layout_height = "wrap_content"
+    android:text = "تسجيل" /><Button
+    android:id = "@+id/button3"
+      android:onClick="reg"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:text = "ليس لديك حساب" /></LinearLayout>
